@@ -110,3 +110,21 @@ const Aashu = {
   company: "Tcs",
 };
 console.log(Aashu.age);
+
+//Loops
+// 1. For Loops
+
+for (let i = 0; i < 10; i++) {
+  console.log("this is : " + i);
+}
+console.log(Bestfriends);
+
+for (let i = 0; i < Bestfriends.length; i++) {
+  console.log(Bestfriends[i]);
+}
+//while loop
+let i = 0;
+while (i < Bestfriends.length) {
+  console.log("From While Loop: " + Bestfriends[i]);
+  i++;
+}
