@@ -12,6 +12,7 @@ const btnHold = document.querySelector('.btn--hold');
 const player0E1 = document.querySelector('.player--0');
 const player1E1 = document.querySelector('.player--1');
 const newGame = document.querySelector('.btn--new');
+const dices = document.querySelector('.dice');
 let currentScore = 0;
 let activePlayer = 0;
 let score = [0, 0];
@@ -90,5 +91,17 @@ newGame.addEventListener('click', function () {
   //flag = true;
   starter();
 });
+dices.addEventListener('click', function () {
+  alert('you clicked dice');
+});
 const newg = function () {};
 console.log(newGame);
+
+const name = {
+  names: 'Aashu',
+  age: 25,
+  calcage: function () {
+    2098 + this.age;
+  },
+};
+console.log(this);

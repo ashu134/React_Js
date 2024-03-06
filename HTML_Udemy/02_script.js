@@ -128,3 +128,30 @@ while (i < Bestfriends.length) {
   console.log("From While Loop: " + Bestfriends[i]);
   i++;
 }
+//destructuring object
+
+const obj = { a: 12, b: 23, c: 33 };
+console.log(obj);
+
+//spread operator ((...))
+const arr = [1, 3, 5, 6];
+const newArr = [12, 33, 43, 44, ...arr];
+console.log(newArr);
+const str = ["aahu", "Raj", "kumar"];
+const newStr = [...str, "Aashutosh"];
+console.log(newStr);
+
+//copy array
+const name1 = ["Pawan", "Monu", "Ranjan"];
+const copyStr = str;
+const allFr = [...copyStr, ...name1];
+console.log(allFr);
+
+//we can break words into letters
+const Name = "Aashutosh";
+const words = [...Name, " ", "K"];
+console.log(words);
+
+// || operator can return datatypes also
+const YesNo = null || undefined || "yes";
+console.log(YesNo);
